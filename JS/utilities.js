@@ -6,7 +6,7 @@ const utils = function(){
         const options = {
             method: method.toUpperCase(),
             mode : 'cors',
-            cache: 'default' 
+            cache: 'default'
         };
 
         return fetch( url, options )
